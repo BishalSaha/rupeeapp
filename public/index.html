@@ -1,0 +1,465 @@
+<html lang="en" style="--mask-size:918.243px;">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+
+	<!-- Apple -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" href="https://i.imgur.com/c7ZnbF0.png">
+
+	<!-- Primary Meta Tags -->
+	<meta name="title" content="Rupee App — Neo-banking for GenZ">
+	<meta name="description" content="Independently start saving and spending!">
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://rupeeapp.in">
+	<meta property="og:title" content="Rupee App — Neo-banking for GenZ">
+	<meta property="og:description" content="Independently start saving and spending!">
+	<meta property="og:image" content="https://i.imgur.com/nAONe8A.png">
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://rupeeapp.in">
+	<meta property="twitter:title" content="Rupee App — Neo-banking for GenZ">
+	<meta property="twitter:description" content="Independently start saving and spending!">
+	<meta property="twitter:image" content="https://i.imgur.com/nAONe8A.png">
+	<title>Rupee App — Neo-banking for GenZ</title>
+
+	<!-- Clarity tracking code for https://rupeeapp.in/ -->
+    <script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "85smimk8ty");
+    </script>
+
+	<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PVBQR4T');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-GQJ44MD5EZ');
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GQJ44MD5EZ"></script>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="Favicon.png">
+	<link href="main.css" rel="stylesheet">
+	
+	<style>
+		body {
+			margin: 0;
+		}
+
+		@keyframes fade {
+			0%, 100% {
+				opacity: .2;
+			}
+			50% {
+				opacity: 1;
+			}
+		}
+
+		.loader {
+			display: flex;
+			transition: opacity ease-in-out 1.4s;
+			z-index: 50;
+			width: 100%;
+			top: 0;
+			position: fixed;
+			height: 100%;
+			background: rgba(6, 6, 6, 1);
+			justify-content: center;
+			align-items: center;
+		}
+		.loader svg {
+			display: block;
+			/*vertical-align: middle;*/
+			align-self: center;
+			justify-self: center;
+			opacity: 0;
+			animation: fade 1s infinite 1s;
+		}
+	</style>
+
+</head>
+
+<body class="webp hide-menu">
+
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVBQR4T"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<div class="loader" id="loader">
+		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+			<path d="M56.2852 25.2311C58.1628 27.195 59.5369 29.4548 59.5826 31.3736L66.5578 31.2915C68.0215 31.2742 70.4341 30.9438 69.2145 32.8145L67.2432 35.8379C66.4733 37.0187 65.7604 36.9032 65.1254 36.9145L59.4557 37.0146C58.4699 44.4972 52.1911 49.2656 43.88 51.0349C41.5999 51.4379 41.2045 52.2119 42.4654 53.8075L60.9738 77.2279C61.8736 78.3663 62.7531 79.5048 60.9738 79.5059L54.2922 79.5095C53.5508 79.51 52.975 79.3372 52.3624 78.5777L32.3083 53.7139C31.3694 52.5498 31.1901 51.6382 31.2059 50.9683L31.2729 48.1222C31.3003 46.9525 32.7915 47.0072 34.5649 47.0752C43.2619 47.287 49.8054 45.4953 51.466 36.8892L31.0186 36.7724C30.1337 36.7674 29.7225 36.4372 30.2668 35.5342L32.4031 31.9898C32.8798 31.199 33.2968 30.8753 34.8783 30.8979L50.5781 31.1229C48.0676 25.9509 41.4203 25.0498 31.1109 25.2976C29.2339 25.3533 29.7383 24.4773 31.1109 22.4732L32.0938 21.0317C33.0972 19.59 33.653 19.5892 34.8716 19.5875L34.8783 19.5873L63.9392 19.5444L66.5683 19.5405L68.0215 19.5402C69.4746 19.54 69.87 20.1282 69.2145 21.1165L67.2432 24.1696C66.5578 25.2311 66.5578 25.2311 65.1254 25.2311H63.9392H56.2852Z" fill="white"/>
+			<path d="M34.8783 19.5873C34.8761 19.5873 34.8739 19.5873 34.8716 19.5875M34.8783 19.5873L63.9392 19.5444L66.5683 19.5405L68.0215 19.5402C69.4746 19.54 69.87 20.1282 69.2145 21.1165L67.2432 24.1696C66.5578 25.2311 66.5578 25.2311 65.1254 25.2311H63.9392H56.2852C58.1628 27.195 59.5369 29.4548 59.5826 31.3736L66.5578 31.2915C68.0215 31.2742 70.4341 30.9438 69.2145 32.8145L67.2432 35.8379C66.4733 37.0187 65.7604 36.9032 65.1254 36.9145L59.4557 37.0146C58.4699 44.4972 52.1911 49.2656 43.88 51.0349C41.5999 51.4379 41.2045 52.2119 42.4654 53.8075L60.9738 77.2279C61.8736 78.3663 62.7531 79.5048 60.9738 79.5059L54.2922 79.5095C53.5508 79.51 52.9751 79.3372 52.3624 78.5777L32.3083 53.7139C31.3694 52.5498 31.1901 51.6382 31.2059 50.9683L31.2729 48.1222C31.3003 46.9525 32.7915 47.0072 34.5649 47.0752C43.2619 47.287 49.8054 45.4953 51.466 36.8892L31.0186 36.7724C30.1337 36.7674 29.7225 36.4372 30.2668 35.5342L32.4031 31.9898C32.8798 31.199 33.2968 30.8753 34.8783 30.8979L50.5782 31.1229C48.0676 25.9509 41.4203 25.0498 31.1109 25.2976C29.2339 25.3533 29.7383 24.4773 31.1109 22.4732L32.0938 21.0317C33.0972 19.59 33.653 19.5892 34.8716 19.5875L34.8783 19.5873ZM34.8783 19.5873L34.8716 19.5875L34.8783 19.5873Z" stroke="white" stroke-linejoin="round"/>
+	    </svg>
+	</div>
+	
+	<main>
+		
+		<!-- Header -->
+		<header style="z-index: 4">
+			<a href="#">
+				<svg id="home-link" class="telda-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.954 58.564">
+					<defs>
+						<style>
+							.cls-1 {fill:white}
+						</style>
+					</defs>
+					<g xmlns="http://www.w3.org/2000/svg" clip-path="url(#clip0)">
+                    <path d="M24.6278 6.31419C26.3793 8.14811 27.6612 10.2584 27.7038 12.0501L34.2108 11.9734C35.5762 11.9573 37.8269 11.6487 36.6891 13.3956L34.8502 16.219C34.132 17.3216 33.467 17.2138 32.8745 17.2243L27.5855 17.3177C26.6658 24.3051 20.8086 28.7579 13.0554 30.41C10.9284 30.7864 10.5595 31.5091 11.7358 32.9991L29.0017 54.8693C29.841 55.9325 30.6615 56.9956 29.0017 56.9965L22.7686 57C22.077 57.0004 21.5399 56.839 20.9684 56.1297L2.26058 32.9117C1.38473 31.8247 1.21747 30.9734 1.23218 30.3478L1.29464 27.6902C1.32032 26.5979 2.71133 26.649 4.36567 26.7124C12.4788 26.9102 18.583 25.2371 20.1321 17.2006L1.05744 17.0916C0.231943 17.0868 -0.151588 16.7786 0.356122 15.9354L2.34902 12.6255C2.79363 11.887 3.18269 11.5848 4.65806 11.6059L19.3039 11.8159C16.9619 6.98635 10.7609 6.14491 1.14362 6.37633C-0.607465 6.42836 -0.136901 5.61036 1.14362 3.7389L2.06051 2.39272C2.99656 1.04651 3.51493 1.04574 4.65183 1.04406L4.65806 1.04405L31.768 1.00387L34.2206 1.00023L35.5762 1C36.9318 0.999768 37.3007 1.54899 36.6891 2.47203L34.8502 5.32297C34.2108 6.31419 34.2108 6.31419 32.8745 6.31419H31.768H24.6278Z" fill="white"></path>
+                    <path d="M4.65806 1.04405L31.768 1.00387L34.2206 1.00023L35.5762 1C36.9318 0.999768 37.3007 1.54899 36.6891 2.47203L34.8502 5.32297C34.2108 6.31419 34.2108 6.31419 32.8745 6.31419H31.768H24.6278C26.3793 8.14811 27.6612 10.2584 27.7038 12.0501L34.2108 11.9734C35.5762 11.9573 37.8269 11.6487 36.6891 13.3956L34.8502 16.219C34.132 17.3216 33.467 17.2138 32.8745 17.2243L27.5855 17.3177C26.6658 24.3051 20.8086 28.7579 13.0554 30.41C10.9284 30.7864 10.5595 31.5091 11.7358 32.9991L29.0017 54.8693C29.841 55.9325 30.6615 56.9956 29.0017 56.9965L22.7686 57C22.077 57.0004 21.5399 56.839 20.9684 56.1297L2.26058 32.9117C1.38473 31.8247 1.21747 30.9734 1.23218 30.3478L1.29464 27.6902C1.32031 26.5979 2.71133 26.649 4.36567 26.7124C12.4788 26.9102 18.583 25.2371 20.1321 17.2006L1.05744 17.0916C0.231943 17.0868 -0.151588 16.7786 0.356122 15.9354L2.34902 12.6255C2.79363 11.887 3.18269 11.5848 4.65806 11.6059L19.304 11.8159C16.9619 6.98635 10.7609 6.14491 1.14362 6.37633C-0.607465 6.42836 -0.136901 5.61036 1.14362 3.7389L2.06051 2.39272C2.99656 1.04651 3.51493 1.04574 4.65183 1.04406M4.65806 1.04405L4.65183 1.04406M4.65806 1.04405C4.65598 1.04406 4.6539 1.04406 4.65183 1.04406" stroke="white" stroke-linejoin="round" fill="white"></path>
+                    </g>
+				</svg>
+			</a>
+			<nav class="col-start-2 col-end-auto row-start-1 row-end-auto xl:block hidden">
+				<ul class="flex justify-between">
+					<li><a href="https://rupeeapp.typeform.com/rupeeapp">Early Access</a></li>
+					
+				</ul>
+			</nav>
+			<a href="#" id="menu-link" class="xl:hidden col-start-2 col-end-auto row-start-1 row-end-auto justify-self-end">
+				<svg class="menu-bar-top" width="30" height="17" viewBox="0 0 31 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect y="7" width="30" height="3" fill="white"></rect>
+				</svg>
+				<svg class="menu-bar-bottom" width="30" height="17" viewBox="0 0 31 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect y="7" width="30" height="3" fill="white"></rect>
+				</svg>
+			</a>
+		</header>
+		
+		<!-- Hero -->
+		<article class="zero-fees" id="telda-free-account">
+			<section class="full-section">
+				<div class="twin-bottom zero-fees-text">
+					<h1>Rupee App</h1>
+					
+					<div class="apps justify-self-center">
+						<a href="https://rupeeapp.typeform.com/rupeeapp" class="appstore">Early Access</a>
+						
+					</div>
+				</div>
+			</section>
+		</article>
+
+		<!-- P2P -->
+		<article class="payments" id="telda-send-request">
+			<section class="twin-section">
+				<div class="twin-left twin-top twin-text" style="padding-top: 20px">
+					<h1>Instant payments<br>and split payments</h1>
+					<h2>Send and receive money from friends and family</h2>
+					
+					<picture class="xl:hidden justify-self-center">
+						<source srcset="p2p.webp" type="image/webp">
+						<source srcset="p2p.png" type="image/png">
+						<img alt="Telda P2P" width="120%" class="justify-self-end self-center" src="p2p.png">
+					</picture>
+				</div>
+				<div class="twin-right twin-bottom hidden xl:block" style="align-self: end">
+					<picture>
+						<source srcset="p2p.webp" type="image/webp">
+						<source srcset="p2p.png" type="image/png">
+						<img alt="Telda P2P" class="justify-self-end self-center" src="p2p.png">
+					</picture>
+				</div>
+			</section>
+		</article>
+
+		<!-- Card -->
+		<article class="security" id="telda-security">
+			<section class="twin-section two-third-section">
+				<div class="hidden col-span-2 twin-left xl:block">
+					<picture>
+						<source srcset="security@2x.webp" type="image/webp">
+						<source srcset="security@2x.png" type="image/png">
+						<img width="500px" style="margin: 0 auto; max-width:90%" alt="Telda Spending" class="justify-self-end self-center" src="security@2x.png">
+					</picture>
+				</div>
+				<div class="twin-right xl:col-span-3 twin-top twin-text">
+					<h1>Get a personalised<br>virtual card</h1>
+					<h2>Pay anywhere with a personalised virtual card which can be managed directly from the app</h2>
+					
+				</div>
+				<div class="twin-bottom xl:hidden">
+					<picture>
+						<source srcset="security@2x.webp" type="image/webp">
+						<source srcset="security@2x.png" type="image/png">
+						<img style="width: 500px; margin: 0 auto; max-width:80%" alt="Telda Spending" class="justify-self-end self-center" src="security@2x.png">
+					</picture>
+				</div>
+			</section>
+		</article>
+
+		<!-- Banking -->
+		<article class="spending" id="telda-spending">
+			<section class="twin-section two-third-section">
+				<div class="twin-left twin-top twin-text">
+					<h1>All the banking<br>within your app</h1>
+					<h2>Not sure where all your money goes? Learn how to better manage your expenses</h2>
+					
+				</div>
+				<div class="twin-right twin-bottom">
+					<picture>
+						<source srcset="spending_items@2x.webp" type="image/webp">
+						<source srcset="spending_items@2x.png" type="image/png">
+						<img width="400px" style="margin: 0 auto; max-width: 90%" alt="Telda Spending" class="justify-self-end self-center" src="spending_items@2x.png">
+					</picture>
+				</div>
+			</section>
+		</article>
+
+		<!-- Landing -->
+		<article class="landing">
+			<section class="full-section">
+				<div class="pay-everywhere twin-left twin-top twin-text" style="justify-self: start">
+					<h1>Neo-banking<br>for the GenZ</h1>
+					<h2>Independently start saving<br>and spending</h2>
+					<div class="apps justify-self-center">
+						<a href="https://rupeeapp.typeform.com/rupeeapp" class="appstore">Early Access</a>
+						
+					</div>
+				</div>
+			</section>
+		</article>
+
+		<!-- Footer -->
+		<footer>
+			<div class="footer-container">
+				<div class="footer-menu hidden xl:flex">
+					<div class="footer-submenu" style="display: none">
+						<div class="footer-header">Home</div>
+						<ul>
+							<li><a href="#" class="disabled-link">About</a></li>
+							<li><a href="#" class="disabled-link">Press</a></li>
+							<li><a href="#" class="disabled-link">Legal</a></li>
+						</ul>
+					</div>
+					<div class="footer-submenu">
+						<div class="footer-header">Features</div>
+						<ul>
+							
+							<li><a href="#telda-send-request">Payments</a></li>
+							<li><a href="#telda-security">Virtual Card</a></li>
+							<li><a href="#telda-spending">Mobile Banking</a></li>
+						</ul>
+					</div>
+					<div class="footer-submenu">
+						<div class="footer-header">Social</div>
+						<ul>
+							<li><a href="https://www.facebook.com/rupee_app/">Facebook</a></li>
+							<li><a href="https://www.instagram.com/rupee_app/">Instagram</a></li>
+							<li><a href="https://www.twitter.com/rupee_app/">Twitter</a></li>
+						</ul>
+					</div>
+					<div class="footer-submenu">
+						<div class="footer-header">Legal</div>
+						<ul>
+							<li><a href="">Terms of Use</a></li>
+							<li><a href="">Privacy Policy</a></li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="footer-social">
+					<a href="https://www.facebook.com/rupee_app/">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 32 32">
+							<path fill="currentColor" d="M28 0H4a4 4 0 0 0-4 4v24a4 4 0 0 0 4 4h12V21h-4v-5h4v-4a6 6 0 0 1 6-6h4v5h-2c-1.1 0-2-.1-2 1v4h5l-2 5h-3v11h6a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4z"></path>
+						</svg>
+					</a>
+					<a href="https://www.twitter.com/rupee_app/">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 32 32">
+							<path fill="currentColor" d="M32 51.256a13.1 13.1 0 0 1-3.78 1.1 6.845 6.845 0 0 0 2.886-3.835 12.686 12.686 0 0 1-4.16 1.68A6.413 6.413 0 0 0 22.154 48a6.756 6.756 0 0 0-6.554 6.941 7.542 7.542 0 0 0 .152 1.582 18.256 18.256 0 0 1-13.524-7.258 7.3 7.3 0 0 0-.9 3.507 7.062 7.062 0 0 0 2.914 5.767 6.21 6.21 0 0 1-2.964-.855v.076a6.886 6.886 0 0 0 5.256 6.818 6.211 6.211 0 0 1-1.72.228 5.494 5.494 0 0 1-1.242-.118A6.682 6.682 0 0 0 9.7 69.522a12.732 12.732 0 0 1-8.13 2.959 11.625 11.625 0 0 1-1.57-.1A17.745 17.745 0 0 0 10.064 75.5c12.072 0 18.672-10.577 18.672-19.745 0-.307-.01-.6-.024-.9A13.53 13.53 0 0 0 32 51.256z" transform="translate(0 -46)"></path>
+							<path fill="none" d="M0 0h32v32H0z"></path>
+						</svg>
+					</a>
+					<a href="https://www.instagram.com/rupee_app/">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 32 32">
+							<path fill="currentColor" d="M22 0H10A10 10 0 0 0 0 10v12a10 10 0 0 0 10 10h12a10 10 0 0 0 10-10V10A10 10 0 0 0 22 0zm7 22a7.008 7.008 0 0 1-7 7H10a7.008 7.008 0 0 1-7-7V10a7.008 7.008 0 0 1 7-7h12a7.008 7.008 0 0 1 7 7z"></path>
+							<path fill="currentColor" d="M136 128a8 8 0 1 0 8 8 8 8 0 0 0-8-8zm0 13a5 5 0 1 1 5-5 5.007 5.007 0 0 1-5 5z" transform="translate(-120 -120)"></path>
+							<circle fill="currentColor" cx="1.066" cy="1.066" r="1.066" transform="translate(23.534 6.335)"></circle>
+						</svg>
+					</a>
+				</div>
+				
+			</div>
+			<div class="copyright">All rights reserved – 2021 © Rupee App.</div>
+		</footer>
+
+		<!-- Navigation -->
+		<nav id="full-menu">
+			<ul>
+				<li>
+					<a href="https://rupeeapp.typeform.com/rupeeapp">Early Access!</a>
+				</li>
+				<!--<li>
+					<a href="https://rupeeapp.typeform.com/rupeeapp">Early Access!</a>
+				</li>-->
+				<!--<li>
+					<a href="https://rupeeapp.typeform.com/rupeeapp">Early Access!</a>
+				</li>-->
+			</ul>
+			<div class="footer-social">
+				<a href="https://www.facebook.com/rupee_app/">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 32 32">
+						<path fill="currentColor" d="M28 0H4a4 4 0 0 0-4 4v24a4 4 0 0 0 4 4h12V21h-4v-5h4v-4a6 6 0 0 1 6-6h4v5h-2c-1.1 0-2-.1-2 1v4h5l-2 5h-3v11h6a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4z"></path>
+					</svg>
+				</a>
+				<a href="https://www.twitter.com/rupee_app/">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 32 32">
+						<path fill="currentColor" d="M32 51.256a13.1 13.1 0 0 1-3.78 1.1 6.845 6.845 0 0 0 2.886-3.835 12.686 12.686 0 0 1-4.16 1.68A6.413 6.413 0 0 0 22.154 48a6.756 6.756 0 0 0-6.554 6.941 7.542 7.542 0 0 0 .152 1.582 18.256 18.256 0 0 1-13.524-7.258 7.3 7.3 0 0 0-.9 3.507 7.062 7.062 0 0 0 2.914 5.767 6.21 6.21 0 0 1-2.964-.855v.076a6.886 6.886 0 0 0 5.256 6.818 6.211 6.211 0 0 1-1.72.228 5.494 5.494 0 0 1-1.242-.118A6.682 6.682 0 0 0 9.7 69.522a12.732 12.732 0 0 1-8.13 2.959 11.625 11.625 0 0 1-1.57-.1A17.745 17.745 0 0 0 10.064 75.5c12.072 0 18.672-10.577 18.672-19.745 0-.307-.01-.6-.024-.9A13.53 13.53 0 0 0 32 51.256z" transform="translate(0 -46)"></path>
+						<path fill="none" d="M0 0h32v32H0z"></path>
+					</svg>
+				</a>
+				<a href="https://www.instagram.com/rupee_app/">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 32 32">
+						<path fill="currentColor" d="M22 0H10A10 10 0 0 0 0 10v12a10 10 0 0 0 10 10h12a10 10 0 0 0 10-10V10A10 10 0 0 0 22 0zm7 22a7.008 7.008 0 0 1-7 7H10a7.008 7.008 0 0 1-7-7V10a7.008 7.008 0 0 1 7-7h12a7.008 7.008 0 0 1 7 7z"></path>
+						<path fill="currentColor" d="M136 128a8 8 0 1 0 8 8 8 8 0 0 0-8-8zm0 13a5 5 0 1 1 5-5 5.007 5.007 0 0 1-5 5z" transform="translate(-120 -120)"></path>
+						<circle fill="currentColor" cx="1.066" cy="1.066" r="1.066" transform="translate(23.534 6.335)"></circle>
+					</svg>
+				</a>
+			</div>
+		</nav>
+		<figure id="menu-sheet"></figure>
+	</main>
+
+<script>
+	let loader                    = document.getElementById('loader');
+	let apps                      = document.querySelectorAll('.apps');
+	let appstore                  = document.querySelectorAll('.appstore');
+	let googleplay                = document.querySelectorAll('.googleplay');
+
+	let body       = document.querySelector('body');
+	let menuLink   = document.getElementById('menu-link')
+	let menu       = document.getElementById('full-menu');
+	let menuSheet  = document.getElementById('menu-sheet');
+	let menuActive = false;
+
+	const removeLoader = function removeLoader() {
+		loader.addEventListener('animationend', function () {
+			loader.remove();
+		})
+
+		loader.addEventListener('transitionend', function () {
+			loader.remove();
+		})
+
+		loader.style.opacity = 0;
+	}
+
+
+	const alignAppsGrid = function alignAppsGrid() {
+		apps.forEach(function (elem) {
+			elem.style.gridTemplateColumns = '1fr';
+		})
+	};
+
+
+	const supportsWebP = function supportsWebP(cb) {
+		let image = new Image();
+		function checkResult(ev) {
+			// if the event is from 'onload', check the see if the image's width is
+			// 1 pixel (which indicates support). otherwise, it fails
+			let result = ev && ev.type === 'load' ? image.width === 1 : false;
+			let body = document.getElementsByTagName("BODY")[0];
+			if (result) {
+				body.classList.add('webp')
+			} else {
+				body.classList.add('no-webp')
+			}
+			cb()
+		}
+
+		image.src = "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA="
+		image.onerror = checkResult
+		image.onload = checkResult
+	};
+
+	const hideElems = function hideElems(elems) {
+		setTimeout(function(){
+			elems.forEach(function (elem) {
+				elem.style.display = 'none';
+			})
+		}, 0)
+	};
+
+	// make sure webp support is decided before removing the loader
+	supportsWebP(function() {
+		window.addEventListener('load', function () {
+			menuLink.addEventListener('click', function (e) {
+				e.preventDefault();
+				toggleMenu();
+			});
+
+			window.setTimeout(function () {
+				removeLoader();
+			}, 2000);
+		});
+	})
+
+	document.addEventListener("DOMContentLoaded", function() {
+		setMaskSize();
+
+		if (/iphone/i.test(navigator.userAgent)) {
+			alignAppsGrid();
+			hideElems(googleplay);
+		}
+
+		if (/android/i.test(navigator.userAgent)) {
+			alignAppsGrid();
+			hideElems(appstore);
+		}
+	});
+
+	const showMenuSheet = function showMenuSheet() {
+		let body = document.getElementsByTagName("BODY")[0];
+		body.classList.remove('hide-menu')
+		body.classList.add('show-menu')
+		window.setTimeout(function () {
+			menuActive = true
+		}, 600);
+	}
+
+	const hideMenuSheet = function hideMenuSheet() {
+		let body = document.getElementsByTagName("BODY")[0];
+		body.classList.remove('show-menu')
+		body.classList.add('hide-menu')
+		window.setTimeout(function () {
+			menuActive = false
+		}, 600);
+	}
+
+	const toggleMenu = function toggleMenu() {
+		if (menuActive === false) {
+			showMenuSheet();
+		} else {
+			hideMenuSheet();
+		}
+	};
+
+	const setMaskSize = function setMaskSize() {
+		const vh = window.innerHeight;
+		const vw = window.innerWidth;
+		const radius = Math.sqrt(vh * vh + vw * vw);
+		document.documentElement.style.setProperty('--mask-size', "".concat(radius, "px"));
+	};
+
+	window.addEventListener('resize', function () {
+		setMaskSize();
+	});
+
+</script>
+</body>
+</html>
